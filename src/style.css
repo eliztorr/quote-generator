@@ -1,0 +1,39 @@
+body {
+  background-color: #551bdb;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+form {
+  padding: 30px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+}
+header {
+  margin-bottom: 20px;
+}
+h1 {
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 1.5;
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 66, 0.5);
+  width: 80%;
+  font-size: 18px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #274589;
+}
+.poem {
+  font-size: 14px;
+  background-color: white;
+}
+.submit-button {
+  margin-left: 10px;
+  background-color: #551bdb;
+  color: white;
+}
