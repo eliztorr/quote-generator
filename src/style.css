@@ -1,5 +1,9 @@
+img {
+  max-width: 30%;
+  max-height: 30%;
+}
 body {
-  background-color: #80b9d3;
+  background-color: #79c2d0;
   font-family: "Roboto Mono", monospace;
 }
 .container {
@@ -8,7 +12,7 @@ body {
 }
 form {
   padding: 30px;
-  background-color: rgb(237, 246, 248);
+  background-color: #eaf6f6;
   border-radius: 10px;
   display: flex;
   margin-bottom: 20px;
@@ -18,9 +22,9 @@ header {
 }
 h1 {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 1.5;
-  display: center;
+  text-align: center;
 }
 .instructions {
   padding: 16px;
@@ -43,9 +47,9 @@ h1 {
   margin-left: 10px;
   border-radius: 15px;
   width: 100px;
-  font-size: 16px;
-  background-color: #10b8be;
-  border-color: #0a778b;
+  font-size: 18px;
+  background-color: #5585b5;
+  border-color: ##5585b5;
   color: white;
 }
 footer {
@@ -54,6 +58,6 @@ footer {
   margin-top: 30px;
 }
 a {
-  color: #0a778b;
+  color: #5585b5;
   text-decoration: none;
 }
