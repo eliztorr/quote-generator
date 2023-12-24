@@ -8,9 +8,10 @@ body {
 }
 form {
   padding: 30px;
-  background-color: rgb(187, 216, 228);
+  background-color: rgb(237, 246, 248);
   border-radius: 10px;
   display: flex;
+  margin-bottom: 20px;
 }
 header {
   margin-bottom: 20px;
@@ -23,12 +24,11 @@ h1 {
 }
 .instructions {
   padding: 16px;
-  border: 1px solid rgba(39, 66, 0.5);
+  border: 1px solid rgb(44, 149, 156);
   width: 80%;
   font-size: 18px;
   border-radius: 50px;
   line-height: 20px;
-  color: #274589;
 }
 .quote {
   font-size: 16px;
@@ -37,18 +37,23 @@ h1 {
   line-height: 2;
   border-radius: 10px;
   border-left: 3px solid #099cc9;
-  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  box-shadow: 0px 4px 30px 0px rgba(111, 129, 147, 0.03);
 }
 .submit-button {
   margin-left: 10px;
   border-radius: 15px;
   width: 100px;
   font-size: 16px;
-  background-color: #044d50;
+  background-color: #10b8be;
+  border-color: #0a778b;
   color: white;
 }
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 30px;
+}
+a {
+  color: #0a778b;
+  text-decoration: none;
 }

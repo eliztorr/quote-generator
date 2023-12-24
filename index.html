@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +20,7 @@
         <h1>Welcome to the Quote Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="quote-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the quote you want to read"
@@ -30,13 +31,13 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="quote">The quote goes here</div>
+        <div class="quote" id="quote"></div>
       </main>
 
       <footer>
         This AI project was coded by
         <a href="https://www.linkedin.com/in/eliztorr/" target="_blank"
-          >Elizabeth Torralbo</a
+          >Elizabeth Torralbo </a
         >for the
         <a href="https://www.shecodes.io/" target="_blank">
           AI add-on Workshop</a
