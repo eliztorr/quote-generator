@@ -24,19 +24,22 @@
         </h1>
       </header>
       <main>
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the quote you want to read"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="quote" id="quote"></div>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the quote you'd like to read"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e : Love, Rain or Wisdom</div>
+        </div>
+        <div class="quote hidden" id="quote"></div>
       </main>
 
       <footer>
