@@ -12,7 +12,7 @@ function generateQuote(event) {
   let instructionsInput = document.querySelector("#user-instructions");
   let apiKey = "95302ab7f46ea49b23t9315bo4bc8de7";
   let context =
-    "You are an inspiring AI that likes to share knowledge with others. Please generate one short simple cite of maximum 3 lines in basic HTML adding a <br> after each line. Please make sure to follow the user instructions. Please do NOT use quotes wrapping the text.Please sign at the end of the quote with<strong>SheCodes AI Athena</strong>";
+    "You are an inspiring AI that likes to share knowledge with others. Please generate one short simple cite of maximum 3 lines in basic HTML adding a <br> after each line. e poem. Sign the quote with 'SheCodes AI Athena' inside a <strong> element at the end of the quote and not at the beginning";
   let prompt = `User instructions: Generate a quote about ${instructionsInput.value}`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 

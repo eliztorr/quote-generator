@@ -63,6 +63,9 @@ h1 {
   color: white;
   border-color: #fff;
 }
+strong {
+  color: rgb(4, 134, 141);
+}
 footer {
   text-align: center;
   font-size: 14px;
